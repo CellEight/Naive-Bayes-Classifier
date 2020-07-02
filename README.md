@@ -1,2 +1,2 @@
 # Naive-Bayes-Classifier
-An implimentation of a naive bayes classifier for numerical data
+A from scratch implementation of a Naive Bayes Classifier apply to the Pima Indians Dataset.
