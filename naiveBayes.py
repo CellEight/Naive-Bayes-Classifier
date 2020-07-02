@@ -110,7 +110,7 @@ def getAccuracy(testSet, predictions):
 
 def main():
     filename = 'pima-indians-diabetes.data.csv'
-    splitRatio = 0.67
+    splitRatio = 0.8
     dataset = loadCsv(filename)
     trainingSet, testSet = splitDataset(dataset, splitRatio)
     summaries = summarizeByClass(trainingSet)
